@@ -1,5 +1,5 @@
 # Nvim
-My own customizaton
+My customizaton
 
 
 ## List of programs you should install:
