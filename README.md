@@ -16,7 +16,7 @@ My own customizaton
 
 
 ## Tmux working with Nvim
-It's neccesary to create `.tmux.conf` file in `/home/(name)` 
+It's neccesary to create `.tmux.conf` file in `/home/(name)`. 
 Add the following to your `~/.tmux.conf` file:
 
 ```
@@ -51,3 +51,7 @@ bind-key -T copy-mode-vi 'C-h' select-pane -R
 bind-key -T copy-mode-vi 'C-\' select-pane -l
 
 ```
+
+## Icons
+Create `NerdFonts` directory in `~/.local/share/fonts`.
+Go to the [Patched Fonts](https://github.com/ryanoasis/nerd-fonts), choose your font, download and install into your new directory.
