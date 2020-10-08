@@ -24,12 +24,29 @@ Add the following to your `~/.tmux.conf` file:
 # set 256 color
 set -g default-terminal "screen-256color"
 
-# Start numbering at 1
+# Set the base index for windows to 1 instead of 0
 set -g base-index 1
 
+# Set the base index for panes to 1 instead of 0
+set -g pane-base-index 1
+
+# re-number windows when one is closed
+set -g renumber-windows on
+
 # Set status bar
-set -g status-fg white
-set -g status-bg black
+set -g status-position bottom
+set -g status-justify left
+set -g status-style 'bg=colour235 fg=colour120 dim'
+set -g status-left ''
+set -g status-right '#[fg=colour0,bg=colour114] %H:%M %d-%b-%y '
+
+setw -g window-status-current-style 'fg=colour235 bg=colour120 bold'
+setw -g window-status-current-format ' #I#[fg=colour235]:#[fg=colour235]#W#[fg=colour235] '
+
+setw -g window-status-style 'fg=colour120 bg=colour235'
+setw -g window-status-format ' #I#[fg=colour120]:#[fg=colour120]#W#[fg=colour120] '
+
+setw -g window-status-bell-style 'fg=colour255 bg=colour1 bold'
 
 # Smart pane switching with awareness of Vim splits.
 # See: https://github.com/christoomey/vim-tmux-navigator
