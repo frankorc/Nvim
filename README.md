@@ -6,8 +6,8 @@ My own customizaton
 * NeoVim
 * [Lf](https://github.com/gokcehan/lf)
 * [Tmux](https://github.com/tmux/tmux/wiki)
+* Python3, pip & Node Support
 * [Xsel](https://github.com/kfish/xsel)
-* Python3 & Node Support
 * [fzf](https://github.com/junegunn/fzf)
 * [ripgrep](https://github.com/BurntSushi/ripgrep)
 * [universal-ctags](https://github.com/universal-ctags/ctags)
