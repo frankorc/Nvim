@@ -12,7 +12,7 @@ let g:which_key_sep = '→'
 
 " Coc Search & Replace
 nnoremap <leader>? :CocSearch -C 1 <C-R>=expand("<cword>")<CR><CR>
-let g:which_key_map['?'] = 'search word'
+let g:which_key_map['?'] = 'Search and Replace'
 
 " Not a fan of floating windows for this
 let g:which_key_use_floating_win = 0
