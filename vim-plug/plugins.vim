@@ -54,6 +54,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mg979/vim-xtabline'
     " Auto change html tags
     Plug 'AndrewRadev/tagalong.vim'
+    " Better Comments
+    Plug 'tpope/vim-commentary'
 
 
 call plug#end()
