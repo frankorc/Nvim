@@ -74,5 +74,5 @@ bind-key -T copy-mode-vi 'C-\' select-pane -l
 Create `NerdFonts` directory in `~/.local/share/fonts`.
 Go to the [Patched Fonts](https://github.com/ryanoasis/nerd-fonts), choose your font, download and install into your new directory.
 
-
+## Credits
 I've used some configurations from [nvim](https://github.com/ChristianChiarulli/nvim)
