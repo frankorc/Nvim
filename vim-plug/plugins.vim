@@ -25,6 +25,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     " LF
+    Plug 'ptzz/lf.vim'
     Plug 'rbgrouleff/bclose.vim'
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
