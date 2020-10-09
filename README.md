@@ -1,7 +1,7 @@
 # Nvim
 My customizaton
 
-<img src="https://github.com/frankorc/Nvim/blob/main/Images/2020-10-08_16-39.png" />
+<img src="https://github.com/frankorc/Nvim/blob/main/Images/2020-10-08_18-59.png" />
 
 ## List of programs you should install:
 * NeoVim
