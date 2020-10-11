@@ -1,10 +1,13 @@
 # Nvim
-My customization
+Neovim is a fork of the Vim code. Bring the best of Vim with a better experience that can work from the terminal.
+It has a high customization capacity and everything can be controlled with the keyboard using commands.
+
+So, here is my customization:
 
 <img src="https://github.com/frankorc/Nvim/blob/main/Images/2020-10-08_18-59.png" />
 
 ## List of programs you should install:
-* NeoVim
+* [NeoVim](https://neovim.io/)
 * [Lf](https://github.com/gokcehan/lf)
 * [Tmux](https://github.com/tmux/tmux/wiki)
 * Python3, pip & Node Support
