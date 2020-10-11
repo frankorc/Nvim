@@ -1,5 +1,5 @@
 # Nvim
-Neovim is a fork of the Vim code. Bring the best of [Vim](https://www.vim.org/) with a better experience that can work from the terminal.
+Neovim is a fork of the Vim code. Brings the best of [Vim](https://www.vim.org/) with a better experience that can work from the terminal.
 It has a high customization capacity and everything can be controlled with the keyboard using commands.
 
 So, here is my customization:
