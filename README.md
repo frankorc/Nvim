@@ -1,5 +1,5 @@
 # Nvim
-My customizaton
+My customization
 
 <img src="https://github.com/frankorc/Nvim/blob/main/Images/2020-10-08_18-59.png" />
 
