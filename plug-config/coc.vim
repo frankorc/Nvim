@@ -4,7 +4,7 @@ let g:coc_global_extensions = [
     \ 'coc-java-debug',
     \ 'coc-tsserver', " Javascript & Typescript    
     \ 'coc-html', " HTML
-    \ 'coc-xml', "XML
+    \ 'coc-xml', " XML
     \ 'coc-css', " CSS    
     \ 'coc-cssmodules',
     \ 'coc-phpls', " PHP
