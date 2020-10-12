@@ -1,29 +1,30 @@
 let g:coc_global_extensions = [
+    \ 'coc-sh', " BASH
+    \ 'coc-java', " Java
+    \ 'coc-java-debug',
+    \ 'coc-tsserver', " Javascript & Typescript    
+    \ 'coc-html', " HTML
+    \ 'coc-xml', "XML
+    \ 'coc-css', " CSS    
+    \ 'coc-cssmodules',
+    \ 'coc-phpls', " PHP
+    \ 'coc-sql', " SQL
+    \ 'coc-json', " JSON
+    \ 'coc-clangd', " C/C++/Objective-C
+    \ 'coc-python', " Python  
+    \ 'coc-pyright',
     \ 'coc-snippets',
     \ 'coc-actions',
-    \ 'coc-sh',
-    \ 'coc-java-debug',
-    \ 'coc-java',
     \ 'coc-lists',
     \ 'coc-emmet',
     \ 'coc-tasks',
     \ 'coc-pairs',
-    \ 'coc-tsserver',
     \ 'coc-floaterm',
-    \ 'coc-html',
-    \ 'coc-css',
-    \ 'coc-cssmodules',
-    \ 'coc-yaml',
-    \ 'coc-python',
+    \ 'coc-yaml',    
     \ 'coc-svg',
     \ 'coc-prettier',
-    \ 'coc-pyright',
     \ 'coc-vimlsp',
-    \ 'coc-xml',
     \ 'coc-yank',
-    \ 'coc-json',
-    \ 'coc-phpls',
-    \ 'coc-clangd',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.
