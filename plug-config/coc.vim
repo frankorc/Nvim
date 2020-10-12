@@ -22,6 +22,8 @@ let g:coc_global_extensions = [
     \ 'coc-xml',
     \ 'coc-yank',
     \ 'coc-json',
+    \ 'coc-phpls',
+    \ 'coc-clangd',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.
