@@ -4,7 +4,7 @@ It has a high customization capacity and everything can be controlled with the k
 
 So, here is my customization:
 
-<img src="https://github.com/frankorc/Nvim/blob/main/Images/2020-10-08_18-59.png" />
+<img src="https://github.com/frankorc/nvim/blob/main/Images/2020-10-13_12-53.png" />
 
 ## List of programs you should install:
 * [NeoVim](https://neovim.io/)
