@@ -50,7 +50,6 @@ let g:which_key_map.s = {
       \ 'a' : [':Startify'        , 'Start Page']     ,
       \ }
 
-
 " q is for quit 
 let g:which_key_map.q = {
       \ 'name' : '+Exit' ,
