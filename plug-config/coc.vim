@@ -12,7 +12,6 @@ let g:coc_global_extensions = [
     \ 'coc-json', " JSON
     \ 'coc-clangd', " C/C++/Objective-C
     \ 'coc-python', " Python  
-    \ 'coc-pyright',
     \ 'coc-snippets',
     \ 'coc-actions',
     \ 'coc-lists',
