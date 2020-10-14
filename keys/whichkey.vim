@@ -32,11 +32,10 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 let g:which_key_map[','] = [ ':Commands'                          , 'Commands' ]
 let g:which_key_map['e'] = [ ':NERDTreeFind'                     , 'NERDTreeFind' ]
 let g:which_key_map['i'] = [ ':BLines'                            , 'Search Word In' ]
-let g:which_key_map['t'] = [ ':FloatermNew --wintype=normal --height=6'       , 'Terminal' ]
+let g:which_key_map['p'] = [ ':FloatermNew --wintype=normal --height=6'       , 'Terminal' ]
 let g:which_key_map['h'] = [ '<C-W>s'                             , 'Split Horizontal']
-let g:which_key_map['f'] = [ ':Files'                             , 'Search Files']
+let g:which_key_map['u'] = [ ':Files'                             , 'Search Files']
 let g:which_key_map['o'] = [ 'Rg'                                  , 'Search Word Out' ]
-let g:which_key_map['r'] = [ ':FloatermNew lf'                    , 'LF' ]
 let g:which_key_map['v'] = [ '<C-W>v'                             , 'Split Vertical']
 
 
