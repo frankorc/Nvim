@@ -19,10 +19,19 @@ So, here is my customization:
 * [fd-find](https://github.com/sharkdp/fd)
 
 
+## Icons
+Create `NerdFonts` directory in `~/.local/share/fonts`.
+Go to the [Patched Fonts](https://github.com/ryanoasis/nerd-fonts), choose your font, download and install into your new directory.
+
+## Credits
+I've used some configurations from [nvim](https://github.com/ChristianChiarulli/nvim)
+
+
+## FROM HERE IT'S OPTIONAL
+
 ## Tmux working with Nvim
 It's neccesary to create `.tmux.conf` file in `/home/(name)`. 
 Add the following to your `~/.tmux.conf` file:
-
 ```
 # set 256 color
 set -g default-terminal "screen-256color"
@@ -73,15 +82,9 @@ bind-key -T copy-mode-vi 'C-\' select-pane -l
 
 ```
 
-## Icons
-Create `NerdFonts` directory in `~/.local/share/fonts`.
-Go to the [Patched Fonts](https://github.com/ryanoasis/nerd-fonts), choose your font, download and install into your new directory.
-
-
 ## Startify
-You cand add a custom header in `start-screen.vim`. You can find it in `~/.config/nvim/plug-config`.
+You could add a custom header in `start-screen.vim`. You can find it in `~/.config/nvim/plug-config`.
 You can use pages to convert Text to ASCII online and put it at the beginning of the file like this:
-
 ```
 let g:startify_custom_header = [
         \'  _   _ ______ ______      _______ __  __  ',
@@ -91,12 +94,10 @@ let g:startify_custom_header = [
         \' | |\  | |___| |__| | \  /   _| |_| |  | | ',
         \' |_| \_|______\____/   \/   |_____|_|  |_| ',
         \]
-```
-                                      
-                                      
+```               
+
 ## Lf
 Edit the file `lf.vim` when all have been installed. You can find it in `~/.config/nvim/autoload/plugged/lf.vim`.
-
 Comment all of this:
 ```
 " " To open lf when vim load a directory
@@ -111,7 +112,6 @@ Comment all of this:
 "   map <leader>f :Lf<CR>
 " endif
 ```
-
 If the file `lfrc` does not exist. You can create it in `~/.config/lf` and put the next piece of code. 
 ```
 set shell zsh #or bash if you are not using zsh
@@ -140,6 +140,3 @@ else
      nnoremap <silent> <Leader>d :Bclose<CR>
 endif
 ```
-
-## Credits
-I've used some configurations from [nvim](https://github.com/ChristianChiarulli/nvim)
