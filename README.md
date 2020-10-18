@@ -130,7 +130,7 @@ cmd open ${{
 ## Bclose
 Edit the file `bclose.vim` when all have been installed. You can find it in `~/.config/nvim/autoload/plugged/bclose.vim`.
 
-Change the letter `d` instead of `bd` in `nnoremap <silent> <Leader>d :Bclose<CR>`
+Change the letter `d` instead of `bd` in `nnoremap <silent> <Leader>bd :Bclose<CR>`
 ```
 if exists ("g:bclose_no_plugin_maps") &&  g:bclose_no_plugin_maps
     "do nothing
