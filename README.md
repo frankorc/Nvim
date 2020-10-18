@@ -85,7 +85,7 @@ I've used some configurations from [nvim](https://github.com/ChristianChiarulli/
 
 ## Startify
 You could add a custom header in `start-screen.vim`. You can find it in `~/.config/nvim/plug-config`.
-You can use pages to convert Text to ASCII online and put it at the beginning of the file like this:
+You could use web pages to convert Text to ASCII online and put it at the beginning of the file like this:
 ```
 let g:startify_custom_header = [
         \'  _   _ ______ ______      _______ __  __  ',
