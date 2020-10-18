@@ -23,11 +23,6 @@ So, here is my customization:
 Create `NerdFonts` directory in `~/.local/share/fonts`.
 Go to the [Patched Fonts](https://github.com/ryanoasis/nerd-fonts), choose your font, download and install into your new directory.
 
-## Credits
-I've used some configurations from [nvim](https://github.com/ChristianChiarulli/nvim)
-
-
-## FROM HERE IT'S OPTIONAL
 
 ## Tmux working with Nvim
 It's neccesary to create `.tmux.conf` file in `/home/(name)`. 
@@ -81,6 +76,12 @@ bind-key -T copy-mode-vi 'C-h' select-pane -R
 bind-key -T copy-mode-vi 'C-\' select-pane -l
 
 ```
+
+## Credits
+I've used some configurations from [nvim](https://github.com/ChristianChiarulli/nvim)
+
+
+## FROM HERE IT'S OPTIONAL
 
 ## Startify
 You could add a custom header in `start-screen.vim`. You can find it in `~/.config/nvim/plug-config`.
