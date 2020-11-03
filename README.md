@@ -113,20 +113,6 @@ Comment all of this:
 "   map <leader>f :Lf<CR>
 " endif
 ```
-If the file `lfrc` does not exist. You can create it in `~/.config/lf` and put the next piece of code. 
-```
-set shell zsh #or bash if you are not using zsh
-set shellopts '-eu:--shwordsplit'
-set ifs "\n"
-set scrolloff 10
-
-cmd open ${{
-    case $(file --mime-type $f -b) in
-        text/*) $EDITOR $fx;;
-        *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
-    esac
-}}
-```
 
 ## Bclose
 Edit the file `bclose.vim` when all have been installed. You can find it in `~/.config/nvim/autoload/plugged/bclose.vim`.
@@ -141,3 +127,13 @@ else
      nnoremap <silent> <Leader>d :Bclose<CR>
 endif
 ```
+
+## GitMessenger
+Edit the file `gitmessenger.vim` when all have been installed. You can find it in `~/.config/nvim/autoload/plugged/git-messenger.vim`.
+Comment all of this:
+```
+" if !g:git_messenger_no_default_mappings
+"     nmap <Leader>gm <Plug>(git-messenger)
+" endif
+```
+
