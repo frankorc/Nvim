@@ -12,6 +12,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'sheerun/vim-polyglot'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
+    " Closetags
+    Plug 'alvan/vim-closetag'
     " Nerdtree 
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'ryanoasis/vim-devicons'
