@@ -24,7 +24,7 @@ Go to the [Patched Fonts](https://github.com/ryanoasis/nerd-fonts), choose your 
 
 ## Tmux working with Nvim
 It's neccesary to create `.tmux.conf` file in `/home/(name)`. 
-Add the following .[config_code](https://github.com/frankorc/my_dotfiles/blob/main/.tmux.conf) to your `~/.tmux.conf` file.
+Add the following [config_code](https://github.com/frankorc/my_dotfiles/blob/main/.tmux.conf) to your `~/.tmux.conf` file.
 
 ## Credits
 I've used some configurations from [nvim](https://github.com/ChristianChiarulli/nvim)
