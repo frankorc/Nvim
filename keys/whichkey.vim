@@ -74,7 +74,7 @@ let g:which_key_map.g = {
       \ 'c' : [':Git commit'                       , 'commit'],
       \ 'd' : [':Git diff'                         , 'diff'],
       \ 's' : [':Gstatus'                          , 'status'],
-      \ 'l' : [':Git log'                          , 'log'],
+      \ 'l' : [':Gblame'                          , 'blame'],
       \ 'o' : [':Git show'                          , 'show'],
       \ }
 
