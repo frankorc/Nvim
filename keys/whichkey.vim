@@ -31,6 +31,7 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 " Single mappings
 let g:which_key_map[','] = [ ':Commands'                          , 'Commands' ]
 let g:which_key_map['e'] = [ ':NERDTreeFind'                     , 'NERDTreeFind' ]
+let g:which_key_map['w'] = [ ':NERDTreeClose'                     , 'NERDTreeClose' ]
 let g:which_key_map['i'] = [ ':BLines'                            , 'Search Word In' ]
 let g:which_key_map['p'] = [ ':FloatermNew --wintype=normal --height=6'       , 'Terminal' ]
 let g:which_key_map['f'] = [ ':FloatermNew lf'                                , 'Lf' ]
