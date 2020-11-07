@@ -31,7 +31,7 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 " Single mappings
 let g:which_key_map[','] = [ ':Commands'                          , 'Commands' ]
 let g:which_key_map['e'] = [ ':NERDTreeFind'                     , 'NERDTreeFind' ]
-let g:which_key_map['w'] = [ ':NERDTreeClose'                     , 'NERDTreeClose' ]
+let g:which_key_map['q'] = [ 'quit'                               , 'Quit' ]
 let g:which_key_map['i'] = [ ':BLines'                            , 'Search Word In' ]
 let g:which_key_map['p'] = [ ':FloatermNew --wintype=normal --height=6'       , 'Terminal' ]
 let g:which_key_map['f'] = [ ':FloatermNew lf'                                , 'Lf' ]
@@ -51,11 +51,10 @@ let g:which_key_map.s = {
       \ 'a' : [':Startify'        , 'Start Page']     ,
       \ }
 
-" q is for quit 
-let g:which_key_map.q = {
-      \ 'name' : '+Exit' ,
-      \ 'q' : ['q'        , 'Quit'],
-      \ 'w' : [':wq'    , 'Quit w/ changes'],
+" w is for save
+let g:which_key_map.w = {
+      \ 'name' : '+Save' ,
+      \ 'q' : [':wq'    , 'Quit w/ changes'],
       \ 'e' : [':q!'                 , 'Quit w/o changes'],
       \ 's' : ['w'                 , 'Save changes w/o quit'],
       \ }
