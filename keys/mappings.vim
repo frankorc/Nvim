@@ -4,9 +4,8 @@ imap <C-h> <C-w>h
 imap <C-j> <C-w>j
 imap <C-k> <C-w>k
 imap <C-l> <C-w>l
-" g Leader key
+
 let mapleader=" "
-" let localleader=" "
 nnoremap <Space> <Nop>
 
 " Better indenting
@@ -21,18 +20,12 @@ inoremap <expr> <c-k> ("\<C-p>")
 inoremap jk <Esc>
 inoremap kj <Esc>
 
-" Easy CAPS
-" inoremap <c-u> <ESC>viwUi
-" nnoremap <c-u> viwU<Esc>
-
 " TAB in general mode will move to text buffer
 nnoremap <silent> <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <silent> <S-TAB> :bprevious<CR>
 
 " Move selected line / block of text in visual mode
-" shift + k to move up
-" shift + j to move down
 xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
 
@@ -67,3 +60,5 @@ nnoremap <silent> <M-k>    :resize -2<CR>
 nnoremap <silent> <M-j>    :resize +2<CR>
 nnoremap <silent> <M-l>    :vertical resize -2<CR>
 nnoremap <silent> <M-h>    :vertical resize +2<CR>
+
+nmap <silent>, :nohlsearch<CR>
