@@ -34,7 +34,6 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
   \| autocmd BufLeave <buffer> set laststatus=2 noshowmode ruler
 
 " Single mappings
-let g:which_key_map[','] = [ ':Commands'                          , 'Commands' ]
 let g:which_key_map['e'] = [ ':NERDTreeFind'                     , 'NERDTreeFind' ]
 let g:which_key_map['q'] = [ 'quit'                               , 'Quit' ]
 let g:which_key_map['i'] = [ ':BLines'                            , 'Search Word In' ]
@@ -74,13 +73,13 @@ let g:which_key_map.c = {
 " g is for git
 let g:which_key_map.g = {
       \ 'name' : '+Git' ,
-      \ 'A' : [':Git add .'                        , 'add all'],
-      \ 'a' : [':Git add %'                        , 'add current'],
-      \ 'c' : [':Git commit'                       , 'commit'],
-      \ 'd' : [':Git diff'                         , 'diff'],
-      \ 's' : [':Gstatus'                          , 'status'],
-      \ 'l' : [':Gblame'                          , 'blame'],
-      \ 'o' : [':Git show'                          , 'show'],
+      \ 'A' : [':Git add .'                        , 'Add all'],
+      \ 'a' : [':Git add %'                        , 'Add current'],
+      \ 'c' : [':Git commit'                       , 'Commit'],
+      \ 'm' : [':GitMessenger'                         , 'Messenger'],
+      \ 's' : [':Gstatus'                          , 'Status'],
+      \ 'l' : [':Gblame'                          , 'Blame'],
+      \ 'o' : [':Git show'                          , 'Show'],
       \ }
 
 
