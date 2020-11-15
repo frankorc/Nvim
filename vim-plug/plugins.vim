@@ -16,8 +16,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'alvan/vim-closetag'
     " Nerdtree 
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-    Plug 'ryanoasis/vim-devicons'
     Plug 'scrooloose/NERDTree'
+    " Cool Icons
+    Plug 'ryanoasis/vim-devicons'
     " Themes
     Plug 'joshdick/onedark.vim'
     Plug 'morhetz/gruvbox'
@@ -53,12 +54,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-surround'   
     " Start Screen
     Plug 'mhinz/vim-startify'
-    " Better tabline
-    Plug 'mg979/vim-xtabline'
     " Auto change html tags
     Plug 'AndrewRadev/tagalong.vim'
     " Better Comments
     Plug 'tpope/vim-commentary'
+    " Better tabline
+    Plug 'mg979/vim-xtabline'
 
 
 call plug#end()
