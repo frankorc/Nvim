@@ -59,6 +59,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-commentary'
     " Better tabline
     Plug 'mg979/vim-xtabline'
+    " Easymotion
+    Plug 'easymotion/vim-easymotion'
 
 
 call plug#end()
