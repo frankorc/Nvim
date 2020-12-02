@@ -20,7 +20,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Cool Icons
     Plug 'ryanoasis/vim-devicons'
     " Themes
-    Plug 'joshdick/onedark.vim'
     Plug 'morhetz/gruvbox'
     " Intelisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
