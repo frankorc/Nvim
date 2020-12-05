@@ -57,8 +57,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'AndrewRadev/tagalong.vim'
     " Better Comments
     Plug 'tpope/vim-commentary'
-    " Better tabline
-    Plug 'mg979/vim-xtabline'
     " Easymotion
     Plug 'easymotion/vim-easymotion'
 
