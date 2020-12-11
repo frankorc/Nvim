@@ -62,4 +62,4 @@ nnoremap <silent> <M-j>    :resize +2<CR>
 nnoremap <silent> <M-l>    :vertical resize -2<CR>
 nnoremap <silent> <M-h>    :vertical resize +2<CR>
 
-nmap <silent>, :nohlsearch<CR>
+nmap <silent>_ :nohlsearch<CR>
